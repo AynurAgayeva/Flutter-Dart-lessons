@@ -85,7 +85,7 @@ class Teacher {
 
   void set setAge(int age) {
     if (age < 0) {
-      print("age little");
+      print("age is little");
       _age = 0;
     } else {
       _age = age;
